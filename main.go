@@ -47,7 +47,7 @@ func Handler(event InputEvent) (string, error) {
 		return "Something went wrong!", err
 	}
 
-	return "Everything went well - Yay!", err
+	return "Everything went excellent - Yay!", err
 }
 
 func GetImage(url string) (bytes []byte) {
